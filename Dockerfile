@@ -14,4 +14,4 @@ ENV WINEPREFIX /home/wix/.wine
 ENV WINEARCH win32
 
 # Install .NET Framework 4.0
-RUN wine wineboot && xvfb-run winetricks --unattended dotnet40 corefonts
+# RUN wine wineboot && xvfb-run winetricks --unattended dotnet40 corefonts
