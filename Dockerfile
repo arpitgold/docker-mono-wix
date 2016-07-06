@@ -1,4 +1,4 @@
-FROM alfreadx/winehq
+FROM alfreadx/winehq:winehq1.9.11
 MAINTAINER Arpit Nagar <arpitgold@gmail.com>
 
 # Wget is needed by winetricks
